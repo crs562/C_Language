@@ -3,7 +3,7 @@
  Name        : Hello.c
  Author      : Chaitanya Shah
  Version     : v1
- Copyright   : Your copyright notice
+ Copyright   : 
  Description : Hello World in C, Ansi-style
  ============================================================================
  */
