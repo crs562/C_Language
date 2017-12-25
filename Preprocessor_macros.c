@@ -1,25 +1,20 @@
 /*
- ============================================================================
+ ==================================================================================================================================
  Name        : Preprocessor_macros.c
  Author      : Chaitanya Shah
  Version     : v1
  Copyright   : 
- Description : Hello World in C, Ansi-style
- ============================================================================
+ Description : Problem Statement from MIT 6.087, IAP 2010, Problem set 1, Problem 1.2
+ 	       Consider the statement
+	       double ans = 18.0/squared(2+1);
+	       For each of the four versions of the function macro squared() below, write the corresponding value of ans.
+               1. #define squared(x) x*x
+               2. #define squared(x) (x*x)
+               3. #define squared(x) (x)*(x)
+               4. #define squared(x) ((x)*(x))
+ Style	     : ANSI-style
+ ==================================================================================================================================
  */
-
-/* Problem Statement from MIT 6.087, IAP 2010, Problem set 1, Problem 1.2 */
-
-/*
-Consider the statement
-double ans = 18.0/squared(2+1);
-
-For each of the four versions of the function macro squared() below, write the corresponding value of ans.
-1. #define squared(x) x*x
-2. #define squared(x) (x*x)
-3. #define squared(x) (x)*(x)
-4. #define squared(x) ((x)*(x))
-*/
 
 #include <stdio.h>
 
