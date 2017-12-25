@@ -1,0 +1,16 @@
+Q1. What do curly braces denote in C? Why does it make sense to use curly braces to surround the body of a function?
+
+A1. The curly braces denote a block of code, in which variables can be declared. Variables declared within the block are valid
+    only until the end of the block, marked by the matching right curly brace '}'. The body of a function is one such type of
+    block, and thus, curly braces are used to describe the extent of that block.
+    
+Q2. Describe the difference between the literal values 7, "7", and '7'.
+
+A2. The first literal describes an integer of value 7. The second describes a null-terminared string consisting of the character
+    '7'. The third describes the character '7', whose value is its ASCII character code (55).
+    
+Q3. Consider the statement
+    double ans = 10.0 + 2.0 / 3.0 - 2.0 * 2.0;
+    Rewrite this statement, inserting parentheses to ensure that ans = 11.0 upon evaluation of this statement.
+    
+A3. double ans = 10.0 + 2.0 / ((3.0 - 2.0) * 2.0);
