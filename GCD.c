@@ -9,7 +9,8 @@
  ==================================================================================================================================
  */
  
- #include <stdio.h>
+#include <stdio.h>
+
 main()
 {
 	int first_num, second_num, temp, loop_var;
@@ -33,5 +34,6 @@ main()
 		if(((first_num % loop_var) == 0) && ((second_num % loop_var) == 0))
 			break;
 	}
+
 	printf("GCD(%d, %d) = %d\n", first_num, second_num, loop_var);
 }
