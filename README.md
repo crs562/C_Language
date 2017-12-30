@@ -1,1 +1,8 @@
 # C_Language
+Programming files that I used for learning C Programming Language.
+
+List of Major Programs:
+1. Calculating 1 + 2 + 3 + ... + N. (Nadd.c)
+2. Factorial of N. (factorial.c)
+3. Find the greatest common divisor (GCD) of two positive integers. (GCD.c)
+4. Euclid Algorithm for GCD. (EuclidGCD.c)
