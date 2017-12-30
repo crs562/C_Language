@@ -12,21 +12,26 @@
  #include <stdio.h>
 main()
 {
-	int a, b, t, k;
+	int first_num, second_num, temp, loop_var;
+	
 	printf("Enter a first integer number: ");
-	scanf("%d", &a);
+	scanf("%d", &first_num);
 	printf("Enter a second integer number: ");
-	scanf("%d", &b);
-	if(a < b)
+	scanf("%d", &second_num);
+	
+	/* Finding the smallest number */
+	if(first_num < second_num)
 	{
-		t = b;
-		b = a;
-		a = t;
+		temp = second_num;
+		second_num = first_num;
+		first_num = temp;
 	}
-	for(k = b; k >= 1; k--)
+	
+	/* For each loop_var, if loop_var divides first_num and second_num, then loop_var is the GCD of first_num and second_num. */
+	for(loop_var = second_num; loop_var >= 1; loop_var--)
 	{
-		if(((a % k) == 0) && ((b % k) == 0))
+		if(((first_num % loop_var) == 0) && ((second_num % loop_var) == 0))
 			break;
 	}
-	printf("GCD(%d, %d) = %d\n", a, b, k);
+	printf("GCD(%d, %d) = %d\n", first_num, second_num, loop_var);
 }
