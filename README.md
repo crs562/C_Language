@@ -6,3 +6,4 @@ List of Major Programs:
 2. Factorial of N. (factorial.c)
 3. Find the greatest common divisor (GCD) of two positive integers. (GCD.c)
 4. Euclid Algorithm for GCD. (EuclidGCD.c)
+5. Read a Celsius temperature from the user, convert it into fahrenheit and print it. (tempConvert.c)
