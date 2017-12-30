@@ -1,5 +1,5 @@
 # C_Language
-Programming files that I used for learning C Programming Language.
+Programming files that I write for learning C Programming Language.
 
 List of Major Programs:
 1. Calculating 1 + 2 + 3 + ... + N. (Nadd.c)
