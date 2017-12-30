@@ -4,7 +4,7 @@
  Author      : Chaitanya Shah
  Version     : v1
  Copyright   : 
- Description : Calculating 1 + 2 + 3 + ... + N.
+ Description : Read a Celsius temperature from the user, convert it into fahrenheit and print it.
  Style	     : ANSI-style
  ==================================================================================================================================
  */
