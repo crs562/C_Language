@@ -7,3 +7,6 @@ List of Major Programs:
 3. Find the greatest common divisor (GCD) of two positive integers. (GCD.c)
 4. Euclid Algorithm for GCD. (EuclidGCD.c)
 5. Read a Celsius temperature from the user, convert it into fahrenheit and print it. (tempConvert.c)
+
+Need to implement:
+1. Search word or word pair from file or database
