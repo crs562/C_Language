@@ -13,5 +13,6 @@ Need to implement:
       for example: search "human", "human being" or the related terms for human being like man, woman, child, boy, girl, parent,
       teacher etc.
 2. Optimization/Maximization Problem
-3. Path Finding Problem
+3. Path Finding Problem - time vs money
 4. Average number Problem
+5. Maze Searching Problem
