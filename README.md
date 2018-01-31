@@ -9,7 +9,9 @@ List of Major Programs:
 5. Read a Celsius temperature from the user, convert it into fahrenheit and print it. (tempConvert.c)
 
 Need to implement:
-1. (Simple Decision Making Problem) Search word or word pair from file or database or the similar words
+1. Simple Decision Making Problem: Search word or word pair from file or database or the similar words
       for example: search "human", "human being" or the related terms for human being like man, woman, child, boy, girl, parent,
       teacher etc.
-2. (Optimization/Maximization Problem)
+2. Optimization/Maximization Problem
+3. Path Finding Problem
+4. Average number Problem
